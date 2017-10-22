@@ -11,3 +11,6 @@ def input_to_index(user_input)
   return -1 if user_input < 1 || user_input > 9
   user_input - 1
 end
+
+def move(board, position, which_char='X')
+end
